@@ -9,6 +9,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        'rudiq-red': "#fa0505",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

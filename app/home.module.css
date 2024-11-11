@@ -1,0 +1,22 @@
+.logInRoute{
+    display: block;
+    margin: 30px;
+    background: rgb(250, 5, 5);
+    color: black;
+    border-radius: 0.5rem;
+    padding: 5px 20px;
+    align-self: center;
+    font-weight: 500;
+
+
+
+    @media (min-width: 768px) {
+      font-size: 1rem; /* Medium screens */
+    }
+    @media (min-width: 1024px) {
+      font-size: 1rem; /* Large screens */
+    }
+    @media (min-width: 1280px) {
+      font-size: 1.50rem; /* Extra-large screens */
+    }
+  }

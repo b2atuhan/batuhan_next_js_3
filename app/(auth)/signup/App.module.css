@@ -1,0 +1,57 @@
+.submitButton {
+  display: block;
+  margin: 30px;
+  background: rgb(250, 5, 5);
+  color: black;
+  border-radius: 0.5rem;
+  padding: 5px 20px;
+  align-self: center;
+  font-weight: 500;
+  @media (min-width: 768px) {
+    font-size: 1rem; /* Medium screens */
+  }
+  @media (min-width: 1024px) {
+    font-size: 1rem; /* Large screens */
+  }
+  @media (min-width: 1280px) {
+    font-size: 1.50rem; /* Extra-large screens */
+  }
+}
+.responsiveLabel {
+  margin-top: 10px;
+  color: black;
+  border-radius: 0.5rem;
+  align-self: center;
+  font-size: 1rem; /* Default font size */
+  font-weight: 700;
+
+  /* Increase font size on larger screens */
+  @media (min-width: 768px) {
+    font-size: 1.25rem; /* Medium screens */
+  }
+  @media (min-width: 1024px) {
+    font-size: 1.5rem; /* Large screens */
+  }
+  @media (min-width: 1280px) {
+    font-size: 1.75rem; /* Extra-large screens */
+  }
+}
+.responsiveInput {
+  padding: 0.5rem; /* Default padding */
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  color: black;
+  font-size: 1rem; /* Default font size */
+
+  /* Increase font size on larger screens */
+  @media (min-width: 768px) {
+    font-size: 1.25rem; /* Medium screens */
+  }
+  @media (min-width: 1024px) {
+    font-size: 1.5rem; /* Large screens */
+  }
+  @media (min-width: 1280px) {
+    font-size: 1.75rem; /* Extra-large screens */
+  }
+}
+
