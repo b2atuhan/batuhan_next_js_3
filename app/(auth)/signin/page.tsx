@@ -3,15 +3,13 @@
 import React, { useRef } from 'react';
 import styles from './App.module.css';
 import Link from 'next/link';
-import Image from 'next/image';
+//import Image from 'next/image';
 
 
 
 export default function App() {
-  const nameRef = useRef<HTMLInputElement | null>(null);
   const mailRef = useRef<HTMLInputElement | null>(null);
   const passRef = useRef<HTMLInputElement | null>(null);
-  const passAgainRef = useRef<HTMLInputElement | null>(null);
 
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
