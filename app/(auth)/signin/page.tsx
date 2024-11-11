@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef } from 'react';
-//import styles from './App.module.css';
+import styles from './App.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
